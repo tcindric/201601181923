@@ -9,10 +9,13 @@ public class DozvolaPrijekopa implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "dozvola prijekopa id")
+   @org.kie.api.definition.type.Label("dozvola prijekopa id")
    private java.lang.Integer dozvolaPrijekopaId;
-   @org.kie.api.definition.type.Label(value = "datum izdavanja dozvole")
+   @org.kie.api.definition.type.Label("datum izdavanja dozvole")
    private java.util.Date datumIzdavanja;
+
+   @org.kie.api.definition.type.Label(value = "zahtjev dozvola")
+   private bpm_vvg_2015.procesiugovaranjaprikljucaka.ZahtjevDozvola zahtjevDozvola;
 
    public DozvolaPrijekopa()
    {
@@ -38,11 +41,24 @@ public class DozvolaPrijekopa implements java.io.Serializable
       this.datumIzdavanja = datumIzdavanja;
    }
 
+   public bpm_vvg_2015.procesiugovaranjaprikljucaka.ZahtjevDozvola getZahtjevDozvola()
+   {
+      return this.zahtjevDozvola;
+   }
+
+   public void setZahtjevDozvola(
+         bpm_vvg_2015.procesiugovaranjaprikljucaka.ZahtjevDozvola zahtjevDozvola)
+   {
+      this.zahtjevDozvola = zahtjevDozvola;
+   }
+
    public DozvolaPrijekopa(java.lang.Integer dozvolaPrijekopaId,
-         java.util.Date datumIzdavanja)
+         java.util.Date datumIzdavanja,
+         bpm_vvg_2015.procesiugovaranjaprikljucaka.ZahtjevDozvola zahtjevDozvola)
    {
       this.dozvolaPrijekopaId = dozvolaPrijekopaId;
       this.datumIzdavanja = datumIzdavanja;
+      this.zahtjevDozvola = zahtjevDozvola;
    }
 
 }
