@@ -9,14 +9,12 @@ public class IzvedbaPrikljucka implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "izvedba id")
+   @org.kie.api.definition.type.Label("izvedba id")
    private java.lang.Integer izvedbaId;
-   @org.kie.api.definition.type.Label(value = "datum izvedbe")
+   @org.kie.api.definition.type.Label("datum izvedbe")
    private java.util.Date datumIzvedbe;
-   @org.kie.api.definition.type.Label(value = "nalog")
+   @org.kie.api.definition.type.Label("nalog")
    private bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba nalog;
-   @org.kie.api.definition.type.Label(value = "dozvola prijekopa")
-   private java.lang.Boolean dozvolaPrijekopa;
 
    public IzvedbaPrikljucka()
    {
@@ -53,25 +51,13 @@ public class IzvedbaPrikljucka implements java.io.Serializable
       this.nalog = nalog;
    }
 
-   public java.lang.Boolean getDozvolaPrijekopa()
-   {
-      return this.dozvolaPrijekopa;
-   }
-
-   public void setDozvolaPrijekopa(java.lang.Boolean dozvolaPrijekopa)
-   {
-      this.dozvolaPrijekopa = dozvolaPrijekopa;
-   }
-
    public IzvedbaPrikljucka(java.lang.Integer izvedbaId,
          java.util.Date datumIzvedbe,
-         bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba nalog,
-         java.lang.Boolean dozvolaPrijekopa)
+         bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba nalog)
    {
       this.izvedbaId = izvedbaId;
       this.datumIzvedbe = datumIzvedbe;
       this.nalog = nalog;
-      this.dozvolaPrijekopa = dozvolaPrijekopa;
    }
 
 }
