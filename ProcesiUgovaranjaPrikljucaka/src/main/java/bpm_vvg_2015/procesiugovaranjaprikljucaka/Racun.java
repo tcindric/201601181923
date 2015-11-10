@@ -9,12 +9,15 @@ public class Racun implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "racun id")
+   @org.kie.api.definition.type.Label("racun id")
    private java.lang.Integer racunId;
-   @org.kie.api.definition.type.Label(value = "naziv racuna")
+   @org.kie.api.definition.type.Label("naziv racuna")
    private java.lang.String nazivRacuna;
-   @org.kie.api.definition.type.Label(value = "datum izdavanja racuna")
+   @org.kie.api.definition.type.Label("datum izdavanja racuna")
    private java.util.Date datumIzdavanjaRacuna;
+
+   @org.kie.api.definition.type.Label(value = "Datum slanja")
+   private java.util.Date datumSlanjaRacuna;
 
    public Racun()
    {
@@ -50,12 +53,23 @@ public class Racun implements java.io.Serializable
       this.datumIzdavanjaRacuna = datumIzdavanjaRacuna;
    }
 
+   public java.util.Date getDatumSlanjaRacuna()
+   {
+      return this.datumSlanjaRacuna;
+   }
+
+   public void setDatumSlanjaRacuna(java.util.Date datumSlanjaRacuna)
+   {
+      this.datumSlanjaRacuna = datumSlanjaRacuna;
+   }
+
    public Racun(java.lang.Integer racunId, java.lang.String nazivRacuna,
-         java.util.Date datumIzdavanjaRacuna)
+         java.util.Date datumIzdavanjaRacuna, java.util.Date datumSlanjaRacuna)
    {
       this.racunId = racunId;
       this.nazivRacuna = nazivRacuna;
       this.datumIzdavanjaRacuna = datumIzdavanjaRacuna;
+      this.datumSlanjaRacuna = datumSlanjaRacuna;
    }
 
 }
