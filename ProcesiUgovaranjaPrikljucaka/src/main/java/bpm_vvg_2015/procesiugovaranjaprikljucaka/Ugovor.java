@@ -9,18 +9,20 @@ public class Ugovor implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "ugovor id")
+   @org.kie.api.definition.type.Label("ugovor id")
    private java.lang.Integer ugovorId;
-   @org.kie.api.definition.type.Label(value = "naziv ugovora")
+   @org.kie.api.definition.type.Label("naziv ugovora")
    private java.lang.String nazivUgovora;
-   @org.kie.api.definition.type.Label(value = "datum ugovora")
+   @org.kie.api.definition.type.Label("datum ugovora")
    private java.util.Date datumUgovora;
-   @org.kie.api.definition.type.Label(value = "zahtjev")
+   @org.kie.api.definition.type.Label("zahtjev")
    private bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev zahtjev;
-   @org.kie.api.definition.type.Label(value = "placanje")
+   @org.kie.api.definition.type.Label("placanje")
    private bpm_vvg_2015.procesiugovaranjaprikljucaka.Placanje placanje;
-   @org.kie.api.definition.type.Label(value = "racun")
+   @org.kie.api.definition.type.Label("racun")
    private bpm_vvg_2015.procesiugovaranjaprikljucaka.Racun racun;
+
+   private java.lang.Boolean ugovorProvjereno;
 
    public Ugovor()
    {
@@ -88,11 +90,22 @@ public class Ugovor implements java.io.Serializable
       this.racun = racun;
    }
 
+   public java.lang.Boolean getUgovorProvjereno()
+   {
+      return this.ugovorProvjereno;
+   }
+
+   public void setUgovorProvjereno(java.lang.Boolean ugovorProvjereno)
+   {
+      this.ugovorProvjereno = ugovorProvjereno;
+   }
+
    public Ugovor(java.lang.Integer ugovorId, java.lang.String nazivUgovora,
          java.util.Date datumUgovora,
          bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev zahtjev,
          bpm_vvg_2015.procesiugovaranjaprikljucaka.Placanje placanje,
-         bpm_vvg_2015.procesiugovaranjaprikljucaka.Racun racun)
+         bpm_vvg_2015.procesiugovaranjaprikljucaka.Racun racun,
+         java.lang.Boolean ugovorProvjereno)
    {
       this.ugovorId = ugovorId;
       this.nazivUgovora = nazivUgovora;
@@ -100,6 +113,7 @@ public class Ugovor implements java.io.Serializable
       this.zahtjev = zahtjev;
       this.placanje = placanje;
       this.racun = racun;
+      this.ugovorProvjereno = ugovorProvjereno;
    }
 
 }
