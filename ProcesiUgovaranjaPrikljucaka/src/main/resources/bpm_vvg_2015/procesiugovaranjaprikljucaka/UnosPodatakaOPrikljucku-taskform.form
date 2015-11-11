@@ -3,4 +3,7 @@
 <property name="name" value="UnosPodatakaOPrikljucku-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="izvedbaPrikljucka_in" name="#A7E690" type="dataModelerEntry" outId="izvedbaPrikljucka_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.IzvedbaPrikljucka" id="izvedbaPrikljuckaId"/>
+<dataHolder inputId="prikljucak_in" name="#A7E690" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
+<dataHolder inputId="vodomjer_in" name="#0000A0" type="dataModelerEntry" outId="vodomjer_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Vodomjer" id="vodomjerId"/>
 </form>
