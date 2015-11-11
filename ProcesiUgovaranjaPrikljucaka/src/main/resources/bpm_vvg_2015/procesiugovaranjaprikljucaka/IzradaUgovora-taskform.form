@@ -13,7 +13,7 @@
 <property name="outputBinding" value="zahtjevId_out/zahtjevId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="korisnikId_imeKorisnika" type="InputText" id="133874030">
+<field position="2" name="korisnikId_imeKorisnika" type="InputText" id="133874030">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -26,7 +26,7 @@
 <property name="outputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="korisnikId_prezimeKorisnika" type="InputText" id="2122075586">
+<field position="4" name="korisnikId_prezimeKorisnika" type="InputText" id="2122075586">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Prezime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -39,7 +39,7 @@
 <property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="korisnikId_oibKorisnika" type="InputText" id="1302892363">
+<field position="6" name="korisnikId_oibKorisnika" type="InputText" id="1302892363">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;OIB korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -52,7 +52,7 @@
 <property name="outputBinding" value="korisnik_out/oibKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="korisnikId_adresaKorisnika" type="InputText" id="1995722425">
+<field position="8" name="korisnikId_adresaKorisnika" type="InputText" id="1995722425">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -65,7 +65,7 @@
 <property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="prikljucakId_adresaPrikljucka" type="InputText" id="1038529085">
+<field position="7" name="prikljucakId_adresaPrikljucka" type="InputText" id="1038529085">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -78,7 +78,7 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="1117201727">
+<field position="9" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="1117201727">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katastarska cestica broj quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -91,7 +91,7 @@
 <property name="outputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="prikljucakId_katstarskaOpcina" type="InputText" id="1723860276">
+<field position="11" name="prikljucakId_katstarskaOpcina" type="InputText" id="1723860276">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katstarska opcinaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -104,20 +104,7 @@
 <property name="outputBinding" value="prikljucak_out/katstarskaOpcina"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="prikljucakId_vrstaPrikljucka" type="InputText" id="686666135">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vrsta prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/vrstaPrikljucka"/>
-<property name="outputBinding" value="prikljucak_out/vrstaPrikljucka"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="troskovnikId_cijenaPrikljucka" type="InputText" id="720321443">
+<field position="10" name="troskovnikId_cijenaPrikljucka" type="InputText" id="720321443">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Cijena prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -130,8 +117,44 @@
 <property name="outputBinding" value="troskovnik_out/cijenaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="1" name="ugovorId_ugovorId" type="InputTextInteger" id="2023286493">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ugovor_in/ugovorId"/>
+<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="ugovorId_nazivUgovora" type="InputText" id="50109740">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Naziv ugovora quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="ugovor_in/nazivUgovora"/>
+<property name="outputBinding" value="ugovor_out/nazivUgovora"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="ugovorId_datumUgovora" type="InputDate" id="1531751813">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ugovor_in/datumUgovora"/>
+<property name="outputBinding" value="ugovor_out/datumUgovora"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
 <dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="troskovnik_in" name="#BBBBBB" type="dataModelerEntry" outId="troskovnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Troskovnik" id="troskovnikId"/>
+<dataHolder inputId="ugovor_in" name="#FBB767" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 <dataHolder inputId="zahtjevId_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjevId_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
 </form>
