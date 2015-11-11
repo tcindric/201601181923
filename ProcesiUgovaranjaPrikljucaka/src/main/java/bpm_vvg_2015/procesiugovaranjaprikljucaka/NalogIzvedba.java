@@ -9,14 +9,17 @@ public class NalogIzvedba implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "naloz izvedba id")
+   @org.kie.api.definition.type.Label("naloz izvedba id")
    private java.lang.Integer nalogIzvedbaId;
-   @org.kie.api.definition.type.Label(value = "datum naloga")
+   @org.kie.api.definition.type.Label("datum naloga")
    private java.util.Date datumNaloga;
-   @org.kie.api.definition.type.Label(value = "nazivNaloga")
+   @org.kie.api.definition.type.Label("nazivNaloga")
    private java.lang.String nazivNaloga;
-   @org.kie.api.definition.type.Label(value = "prikljucak")
+   @org.kie.api.definition.type.Label("prikljucak")
    private bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak prikljucak;
+
+   @org.kie.api.definition.type.Label(value = "Datum zaprimanja naloga")
+   private java.util.Date datumZaprimanjaNaloga;
 
    public NalogIzvedba()
    {
@@ -63,14 +66,26 @@ public class NalogIzvedba implements java.io.Serializable
       this.prikljucak = prikljucak;
    }
 
+   public java.util.Date getDatumZaprimanjaNaloga()
+   {
+      return this.datumZaprimanjaNaloga;
+   }
+
+   public void setDatumZaprimanjaNaloga(java.util.Date datumZaprimanjaNaloga)
+   {
+      this.datumZaprimanjaNaloga = datumZaprimanjaNaloga;
+   }
+
    public NalogIzvedba(java.lang.Integer nalogIzvedbaId,
          java.util.Date datumNaloga, java.lang.String nazivNaloga,
-         bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak prikljucak)
+         bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak prikljucak,
+         java.util.Date datumZaprimanjaNaloga)
    {
       this.nalogIzvedbaId = nalogIzvedbaId;
       this.datumNaloga = datumNaloga;
       this.nazivNaloga = nazivNaloga;
       this.prikljucak = prikljucak;
+      this.datumZaprimanjaNaloga = datumZaprimanjaNaloga;
    }
 
 }
