@@ -3,4 +3,26 @@
 <property name="name" value="UnosPodatakaOPotpisu-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="ugovorId_ugovorId" type="InputTextInteger" id="856115580">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ugovor_in/ugovorId"/>
+<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="placanjeId_datumPotpisa" type="InputDate" id="487167012">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum potpisaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="placanje_in/datumPotpisa"/>
+<property name="outputBinding" value="placanje_out/datumPotpisa"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="placanje_in" name="#B29FE4" type="dataModelerEntry" outId="placanje_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Placanje" id="placanjeId"/>
+<dataHolder inputId="ugovor_in" name="#FBB767" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 </form>
