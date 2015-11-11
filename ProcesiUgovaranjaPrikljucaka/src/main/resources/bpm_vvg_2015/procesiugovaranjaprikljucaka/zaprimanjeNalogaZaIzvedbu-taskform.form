@@ -3,4 +3,25 @@
 <property name="name" value="zaprimanjeNalogaZaIzvedbu-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="nalogIzvedbaId_nalogIzvedbaId" type="InputTextInteger" id="1073838034">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj nalogaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="nalogIzvedba_in/nalogIzvedbaId"/>
+<property name="outputBinding" value="nalogIzvedba_out/nalogIzvedbaId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="nalogIzvedbaId_datumZaprimanjaNaloga" type="InputDate" id="1997188427">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum  zaprimanja nalogaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="nalogIzvedba_in/datumZaprimanjaNaloga"/>
+<property name="outputBinding" value="nalogIzvedba_out/datumZaprimanjaNaloga"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="nalogIzvedba_in" name="#A7E690" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
 </form>
