@@ -3,9 +3,9 @@
 <property name="name" value="ZaprimanjeDodatneDokumentacije-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="zahtjevId_zahtjevId" type="InputTextInteger" id="328798151">
+<field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="328798151">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -13,17 +13,50 @@
 <property name="outputBinding" value="zahtjevId_out/zahtjevId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="dokumentacijaId_nazivDokumentacije" type="InputText" id="807618147">
+<field position="2" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="1411404205">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Naziv Dokumentaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Gruntovni izvadak quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="dokumentaciia_in/nazivDokumentacije"/>
-<property name="outputBinding" value="dokumentacija_out/nazivDokumentacije"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="inputBinding" value="dokumentaciia_in/gruntovniIzvadak"/>
+<property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="dokumentacijaId_izvadIzKatastra" type="CheckBox" id="1827159702">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Izvod iz katastra quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dokumentaciia_in/izvadIzKatastra"/>
+<property name="outputBinding" value="dokumentacija_out/izvadIzKatastra"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="24855073">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Gradjevinska dozvolaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dokumentaciia_in/gradjevinskaDozvola"/>
+<property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1891749852">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;ZAPRIMANJE DODATNE DOKUMENTACIJE&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="dokumentaciia_in" name="#FF8881" type="dataModelerEntry" outId="dokumentacija_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Dokumentacija" id="dokumentacijaId"/>
 <dataHolder inputId="zahtjevId_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjevId_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
