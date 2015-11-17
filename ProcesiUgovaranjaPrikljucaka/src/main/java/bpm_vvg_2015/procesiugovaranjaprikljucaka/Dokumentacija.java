@@ -9,12 +9,19 @@ public class Dokumentacija implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "dokumentacija id")
+   @org.kie.api.definition.type.Label("dokumentacija id")
    private java.lang.Integer dokumentacijaId;
-   @org.kie.api.definition.type.Label(value = "naziv dokumentacije")
-   private java.lang.String nazivDokumentacije;
-   @org.kie.api.definition.type.Label(value = "kompletna dokumentacija")
+   @org.kie.api.definition.type.Label("kompletna dokumentacija")
    private java.lang.Boolean kompletnaDokumentacija;
+
+   @org.kie.api.definition.type.Label(value = "Gradjevinska dozvola")
+   private java.lang.Boolean gradjevinskaDozvola;
+
+   @org.kie.api.definition.type.Label(value = "IzvodIzKatastra")
+   private java.lang.Boolean izvadIzKatastra;
+
+   @org.kie.api.definition.type.Label(value = "Gruntovni izvadak")
+   private java.lang.Boolean gruntovniIzvadak;
 
    public Dokumentacija()
    {
@@ -30,16 +37,6 @@ public class Dokumentacija implements java.io.Serializable
       this.dokumentacijaId = dokumentacijaId;
    }
 
-   public java.lang.String getNazivDokumentacije()
-   {
-      return this.nazivDokumentacije;
-   }
-
-   public void setNazivDokumentacije(java.lang.String nazivDokumentacije)
-   {
-      this.nazivDokumentacije = nazivDokumentacije;
-   }
-
    public java.lang.Boolean getKompletnaDokumentacija()
    {
       return this.kompletnaDokumentacija;
@@ -51,13 +48,46 @@ public class Dokumentacija implements java.io.Serializable
       this.kompletnaDokumentacija = kompletnaDokumentacija;
    }
 
+   public java.lang.Boolean getGradjevinskaDozvola()
+   {
+      return this.gradjevinskaDozvola;
+   }
+
+   public void setGradjevinskaDozvola(java.lang.Boolean gradjevinskaDozvola)
+   {
+      this.gradjevinskaDozvola = gradjevinskaDozvola;
+   }
+
+   public java.lang.Boolean getIzvadIzKatastra()
+   {
+      return this.izvadIzKatastra;
+   }
+
+   public void setIzvadIzKatastra(java.lang.Boolean izvadIzKatastra)
+   {
+      this.izvadIzKatastra = izvadIzKatastra;
+   }
+
+   public java.lang.Boolean getGruntovniIzvadak()
+   {
+      return this.gruntovniIzvadak;
+   }
+
+   public void setGruntovniIzvadak(java.lang.Boolean gruntovniIzvadak)
+   {
+      this.gruntovniIzvadak = gruntovniIzvadak;
+   }
+
    public Dokumentacija(java.lang.Integer dokumentacijaId,
-         java.lang.String nazivDokumentacije,
-         java.lang.Boolean kompletnaDokumentacija)
+         java.lang.Boolean kompletnaDokumentacija,
+         java.lang.Boolean gradjevinskaDozvola,
+         java.lang.Boolean izvadIzKatastra, java.lang.Boolean gruntovniIzvadak)
    {
       this.dokumentacijaId = dokumentacijaId;
-      this.nazivDokumentacije = nazivDokumentacije;
       this.kompletnaDokumentacija = kompletnaDokumentacija;
+      this.gradjevinskaDozvola = gradjevinskaDozvola;
+      this.izvadIzKatastra = izvadIzKatastra;
+      this.gruntovniIzvadak = gruntovniIzvadak;
    }
 
 }
