@@ -3,9 +3,9 @@
 <property name="name" value="ZaprimanjeDozvolePrijekopa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="zahtjevZaDozvoluPrijekopaId_zahtjevDozvolaId" type="InputTextInteger" id="964060395">
+<field position="3" name="zahtjevZaDozvoluPrijekopaId_zahtjevDozvolaId" type="InputTextInteger" id="964060395">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj zahtjeva za dozvolu prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj zahtjeva za dozvolu prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -13,9 +13,9 @@
 <property name="outputBinding" value="zahtjevZaDozvoluPrijekopa_out/zahtjevDozvolaId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="prikljucakId_adresaPrikljucka" type="InputText" id="58201535">
+<field position="4" name="prikljucakId_adresaPrikljucka" type="InputText" id="58201535">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -25,9 +25,10 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="dozvolaPrijekopaIdd_dozvolaPrijekopaId" type="InputTextInteger" id="892836562">
+<field position="1" name="dozvolaPrijekopaIdd_dozvolaPrijekopaId" type="InputTextInteger" id="892836562">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj dozvole prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj dozvole prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -35,15 +36,31 @@
 <property name="outputBinding" value="dozvolaPrijekopa_out/dozvolaPrijekopaId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="3" name="dozvolaPrijekopaIdd_datumIzdavanja" type="InputDate" id="45905725">
+<field position="2" name="dozvolaPrijekopaIdd_datumIzdavanja" type="InputDate" id="45905725">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum izdavanja dozvole prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datum izdavanja dozvole prijekopaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dozvolaPrijekopa_in/datumIzdavanja"/>
 <property name="outputBinding" value="dozvolaPrijekopa_out/datumIzdavanja"/>
 <property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="80341518">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;ZAPRIMANJE DOZVOLE PRIJEKOPA&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="dozvolaPrijekopa_in" name="#FBB767" type="dataModelerEntry" outId="dozvolaPrijekopa_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.DozvolaPrijekopa" id="dozvolaPrijekopaIdd"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
