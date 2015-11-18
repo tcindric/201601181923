@@ -3,9 +3,9 @@
 <property name="name" value="ZaprimanjeInformacijeIzradeOkna-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="zahtjevId_zahtjevId" type="InputTextInteger" id="76072550">
+<field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="76072550">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -13,15 +13,30 @@
 <property name="outputBinding" value="zahtjevId_out/zahtjevId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="1" name="prikljucakId_oknoPrikljucka" type="CheckBox" id="446726809">
+<field position="2" name="prikljucakId_oknoPrikljucka" type="CheckBox" id="446726809">
 <property name="fieldRequired" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Okno prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Okno prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="prikljucak_in/oknoPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/oknoPrikljucka"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1197757681">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;dequot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;enquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;esquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;frquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;jaquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;ptquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;quot;zhquot;,quot;&lt;h3&gt;INFORMACIJA O IZRADI OKNA&lt;/h3&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="zahtjevId_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjevId_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
