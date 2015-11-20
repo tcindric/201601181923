@@ -10,7 +10,7 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;PROVJERA OKNA&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="1" name="korisnikId_imeKorisnika" type="InputText" id="1346524070">
+<field position="2" name="korisnikId_imeKorisnika" type="InputText" id="1346524070">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -22,7 +22,7 @@
 <property name="outputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="korisnikId_prezimeKorisnika" type="InputText" id="888935567">
+<field position="3" name="korisnikId_prezimeKorisnika" type="InputText" id="888935567">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Prezime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -34,7 +34,7 @@
 <property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="prikljucakId_adresaPrikljucka" type="InputText" id="1714906399">
+<field position="4" name="prikljucakId_adresaPrikljucka" type="InputText" id="1714906399">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -46,7 +46,7 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="oknoId" type="CheckBox" id="1470498669">
+<field position="5" name="oknoId" type="CheckBox" id="1470498669">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;izvedeno oknoquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -56,8 +56,9 @@
 <property name="outputBinding" value="okno_out"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="5" name="zahtjevId_zahtjevId" type="InputTextInteger" id="2024140095">
+<field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="2024140095">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni broj zahtjevaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
