@@ -3,81 +3,74 @@
 <property name="name" value="UnosIzmjerenihPodataka-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="184688867">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="809654682">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="zahtjevId_in/zahtjevId"/>
-<property name="outputBinding" value="zahtjevId_out/zahtjevId"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="2" name="prikljucakId_adresaPrikljucka" type="InputText" id="1144951846">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="prikljucak_in/adresaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="izmjeraPrikljuckaId_dubinaPrikljucka" type="InputText" id="821819376">
+<field position="3" name="izmjeraId_profilPrikljucka" type="InputText" id="826578321">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dubina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;profil prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/dubinaPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/dubinaPrikljucka"/>
+<property name="inputBinding" value="izmjera_in/profilPrikljucka"/>
+<property name="outputBinding" value="izmjera_out/profilPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="izmjeraPrikljuckaId_duzinaPrikljucka" type="InputText" id="1272629588">
+<field position="4" name="izmjeraId_duzinaPrikljucka" type="InputText" id="157035795">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Duzina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;duzina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/duzinaPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/duzinaPrikljucka"/>
+<property name="inputBinding" value="izmjera_in/duzinaPrikljucka"/>
+<property name="outputBinding" value="izmjera_out/duzinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="izmjeraPrikljuckaId_profilPrikljucka" type="InputText" id="1235068945">
+<field position="5" name="izmjeraId_dubinaPrikljucka" type="InputText" id="748856416">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Profil prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;dubina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/profilPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/profilPrikljucka"/>
+<property name="inputBinding" value="izmjera_in/dubinaPrikljucka"/>
+<property name="outputBinding" value="izmjera_out/dubinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="809654682">
+<field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="1771228543">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;UNOS IZMJERE PRIKLJUCKA&lt;/h3&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni broj zahtjevaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="zahtjev_in/zahtjevId"/>
+<property name="outputBinding" value="zahtjev_out/zahtjevId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<dataHolder inputId="izmjeraPrikljucka_in" name="#0000A0" type="dataModelerEntry" outId="izmjeraPrikljucka_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.IzmjeraPrikljucka" id="izmjeraPrikljuckaId"/>
+<dataHolder inputId="izmjera_in" name="#0000A0" type="dataModelerEntry" outId="izmjera_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.IzmjeraPrikljucka" id="izmjeraId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
-<dataHolder inputId="zahtjevId_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjevId_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
+<dataHolder inputId="zahtjev_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjev_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
 </form>
