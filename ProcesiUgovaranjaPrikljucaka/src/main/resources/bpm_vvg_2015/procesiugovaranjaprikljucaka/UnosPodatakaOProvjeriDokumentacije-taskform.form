@@ -3,6 +3,13 @@
 <property name="name" value="UnosPodatakaOProvjeriDokumentacije-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1136301004">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="1" name="zahtjevId_zahtjevId" type="InputTextInteger" id="1955939503">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni broj zahtjevaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -37,8 +44,9 @@
 <property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="1308230942">
+<field position="5" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="1308230942">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gradjevinska dozvolaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -47,7 +55,7 @@
 <property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="5" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="1126490041">
+<field position="6" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="1126490041">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gruntovni izvadakquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -57,7 +65,7 @@
 <property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="6" name="dokumentacijaId_izvadIzKatastra" type="CheckBox" id="2073077785">
+<field position="7" name="dokumentacijaId_izvadIzKatastra" type="CheckBox" id="2073077785">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;polozajni nacrt iz katastraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -67,7 +75,7 @@
 <property name="outputBinding" value="dokumentacija_out/izvadIzKatastra"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="7" name="kompletnaDokumentacija" type="CheckBox" id="1071440223">
+<field position="8" name="kompletnaDokumentacija" type="CheckBox" id="1071440223">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;kompletna dokumentacijaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -77,20 +85,18 @@
 <property name="outputBinding" value="kompletnaDokumentacija_out"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1136301004">
+<field position="4" name="prikljucakId_adresaPrikljucka" type="InputText" id="1619030360">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;dequot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;enquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;esquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;frquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;jaquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;ptquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;quot;zhquot;,quot;&lt;h3&gt;PREGLED DOKUMENTACIJE&lt;/h3&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="prikljucak_in/adresaPrikljucka"/>
+<property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="dokumentacija_in" name="#FF8881" type="dataModelerEntry" outId="dokumentacija_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Dokumentacija" id="dokumentacijaId"/>
 <dataHolder inputId="kompletnaDokumentacija_in" name="#A7E690" type="basicType" outId="kompletnaDokumentacija_out" value="java.lang.Boolean" id="kompletnaDokumentacija"/>
