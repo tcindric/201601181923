@@ -5,7 +5,7 @@
 <property name="status" value="0"/>
 <field position="0" name="zahtjevId_zahtjevId" type="InputTextInteger" id="1955939503">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni broj zahtjevaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Urudzbeni broj zahtjevaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -15,7 +15,7 @@
 </field>
 <field position="1" name="korisnikId_imeKorisnika" type="InputText" id="818667838">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnika quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnika quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -30,66 +30,62 @@
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Prezime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="korisnik_in/prezimeKorisnika"/>
 <property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="prikljucakId_adresaPrikljucka" type="InputText" id="1481364946">
+<field position="3" name="dokumentacijaId_dokumentacijaId" type="InputTextInteger" id="555944099">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/adresaPrikljucka"/>
-<property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="label" value="quot;enquot;,quot;dokumentacijaId (dokumentacijaId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="dokumentacija_in/dokumentacijaId"/>
+<property name="outputBinding" value="dokumentacija_out/dokumentacijaId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="4" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="752491752">
+<field position="4" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="1308230942">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gradjevinska dozvola quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gradjevinska dozvolaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="dokumentaciia_in/gradjevinskaDozvola"/>
+<property name="inputBinding" value="dokumentacija_in/gradjevinskaDozvola"/>
 <property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="5" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="2118047785">
+<field position="5" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="1126490041">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gruntovni izvadak quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gruntovni izvadakquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="dokumentaciia_in/gruntovniIzvadak"/>
+<property name="inputBinding" value="dokumentacija_in/gruntovniIzvadak"/>
 <property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="6" name="dokumentacijaId_izvadIzKatastra" type="CheckBox" id="1094138580">
+<field position="6" name="dokumentacijaId_izvadIzKatastra" type="CheckBox" id="2073077785">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;polozajni nacrt iz katastraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="dokumentaciia_in/izvadIzKatastra"/>
+<property name="inputBinding" value="dokumentacija_in/izvadIzKatastra"/>
 <property name="outputBinding" value="dokumentacija_out/izvadIzKatastra"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="7" name="dokumentacijaId_kompletnaDokumentacija" type="CheckBox" id="1263184423">
+<field position="7" name="dokumentacijaId_kompletnaDokumentacija" type="CheckBox" id="64097542">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;kompletna dokumentacijaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="dokumentaciia_in/kompletnaDokumentacija"/>
+<property name="inputBinding" value="dokumentacija_in/kompletnaDokumentacija"/>
 <property name="outputBinding" value="dokumentacija_out/kompletnaDokumentacija"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<dataHolder inputId="dokumentaciia_in" name="#FF8881" type="dataModelerEntry" outId="dokumentacija_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Dokumentacija" id="dokumentacijaId"/>
+<dataHolder inputId="dokumentacija_in" name="#FF8881" type="dataModelerEntry" outId="dokumentacija_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Dokumentacija" id="dokumentacijaId"/>
 <dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="zahtjev_in" name="#BBBBBB" type="dataModelerEntry" outId="zahtjev_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Zahtjev" id="zahtjevId"/>
