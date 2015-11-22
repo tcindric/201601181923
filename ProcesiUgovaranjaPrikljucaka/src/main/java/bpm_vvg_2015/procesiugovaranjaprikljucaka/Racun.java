@@ -9,14 +9,14 @@ public class Racun implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Racun_id")
+   @org.kie.api.definition.type.Label("Racun_id")
    private java.lang.String racunaId;
-   @org.kie.api.definition.type.Label(value = "IznosRacuna")
+   @org.kie.api.definition.type.Label("IznosRacuna")
    private java.lang.String iznosRacuna;
-   @org.kie.api.definition.type.Label(value = "Datum_uplate")
+   @org.kie.api.definition.type.Label("Datum_uplate")
    private java.util.Date datumUplate;
-   @org.kie.api.definition.type.Label(value = "Iznos_uplate")
-   private java.util.Date iznosUplate;
+   @org.kie.api.definition.type.Label("Iznos_uplate")
+   private String iznosUplate;
 
    public Racun()
    {
@@ -52,18 +52,18 @@ public class Racun implements java.io.Serializable
       this.datumUplate = datumUplate;
    }
 
-   public java.util.Date getIznosUplate()
+   public java.lang.String getIznosUplate()
    {
       return this.iznosUplate;
    }
 
-   public void setIznosUplate(java.util.Date iznosUplate)
+   public void setIznosUplate(java.lang.String iznosUplate)
    {
       this.iznosUplate = iznosUplate;
    }
 
    public Racun(java.lang.String racunaId, java.lang.String iznosRacuna,
-         java.util.Date datumUplate, java.util.Date iznosUplate)
+         java.util.Date datumUplate, java.lang.String iznosUplate)
    {
       this.racunaId = racunaId;
       this.iznosRacuna = iznosRacuna;
