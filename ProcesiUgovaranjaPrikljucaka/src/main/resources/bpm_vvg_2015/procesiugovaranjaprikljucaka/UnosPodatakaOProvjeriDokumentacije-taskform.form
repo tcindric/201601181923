@@ -61,7 +61,15 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBoxPrimitiveBoolean" id="746478123">
+<field position="5" name="kompletnaDokumentacija" type="CheckBox" id="148387859">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;kompletnaDokumentacija_in (kompletnaDokumentacija)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="kompletnaDokumentacija_in"/>
+<property name="outputBinding" value="kompletnaDokumentacija_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBoxPrimitiveBoolean" id="1592958709">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;gradjevinskaDozvola (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
@@ -69,7 +77,7 @@
 <property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
 <property name="fieldClass" value="boolean"/>
 </field>
-<field position="6" name="dokumentacijaId_gruntovniIzvadak" type="CheckBoxPrimitiveBoolean" id="1841742511">
+<field position="7" name="dokumentacijaId_gruntovniIzvadak" type="CheckBoxPrimitiveBoolean" id="718366760">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;gruntovniIzvadak (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
@@ -77,21 +85,13 @@
 <property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
 <property name="fieldClass" value="boolean"/>
 </field>
-<field position="7" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="152872547">
+<field position="8" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="723643631">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;polozajniNacrt (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/polozajniNacrt"/>
 <property name="outputBinding" value="dokumentacija_out/polozajniNacrt"/>
 <property name="fieldClass" value="boolean"/>
-</field>
-<field position="8" name="kompletnaDokumentacija" type="CheckBox" id="148387859">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;kompletnaDokumentacija_in (kompletnaDokumentacija)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="kompletnaDokumentacija_in"/>
-<property name="outputBinding" value="kompletnaDokumentacija_out"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
 <dataHolder inputId="dokumentacija_in" name="#FF8881" type="dataModelerEntry" outId="dokumentacija_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Dokumentacija" id="dokumentacijaId"/>
 <dataHolder inputId="kompletnaDokumentacija_in" name="#A7E690" type="basicType" outId="kompletnaDokumentacija_out" value="java.lang.Boolean" id="kompletnaDokumentacija"/>
