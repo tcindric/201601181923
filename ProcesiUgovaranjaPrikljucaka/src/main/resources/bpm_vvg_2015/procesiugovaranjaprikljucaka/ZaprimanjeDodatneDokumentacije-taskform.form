@@ -56,31 +56,25 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="1244256701">
+<field position="5" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBoxPrimitiveBoolean" id="1160095249">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gradjevinska dozvolaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;gradjevinskaDozvola (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/gradjevinskaDozvola"/>
 <property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="fieldClass" value="boolean"/>
 </field>
-<field position="6" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="431123224">
+<field position="6" name="dokumentacijaId_gruntovniIzvadak" type="CheckBoxPrimitiveBoolean" id="1495273311">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gruntovni izvadak quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;gruntovniIzvadak (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/gruntovniIzvadak"/>
 <property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
+<property name="fieldClass" value="boolean"/>
 </field>
-<field position="7" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="174877578">
+<field position="7" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="2101011296">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Polozajni nacrt iz katastraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;polozajniNacrt (dokumentacijaId)quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/polozajniNacrt"/>
 <property name="outputBinding" value="dokumentacija_out/polozajniNacrt"/>
