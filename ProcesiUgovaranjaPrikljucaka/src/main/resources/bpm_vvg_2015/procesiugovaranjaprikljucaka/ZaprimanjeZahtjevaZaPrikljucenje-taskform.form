@@ -58,17 +58,17 @@
 <property name="outputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="korisnikId_adresaKorisnika" type="InputText" id="224153640">
+<field position="5" name="korisnikId_imeKorisnika" type="InputText" id="1984102827">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/adresaKorisnika"/>
-<property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
+<property name="inputBinding" value="korisnik_in/imeKorisnika"/>
+<property name="outputBinding" value="korisnik_out/imeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="6" name="prikljucakId_katstarskaOpcina" type="InputText" id="1850796816">
@@ -84,17 +84,17 @@
 <property name="outputBinding" value="prikljucak_out/katstarskaOpcina"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="13" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="1209032721">
+<field position="7" name="korisnikId_prezimeKorisnika" type="InputText" id="1377238529">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj telefona korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot; Prezime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/brojTelefonaKorisnika"/>
-<property name="outputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
+<property name="inputBinding" value="korisnik_in/prezimeKorisnika"/>
+<property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="8" name="prikljucakId_vrstaPrikljucka" type="InputText" id="460566833">
@@ -110,17 +110,17 @@
 <property name="outputBinding" value="prikljucak_out/vrstaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="korisnikId_imeKorisnika" type="InputText" id="1984102827">
+<field position="9" name="korisnikId_adresaKorisnika" type="InputText" id="224153640">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Ime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/imeKorisnika"/>
-<property name="outputBinding" value="korisnik_out/imeKorisnika"/>
+<property name="inputBinding" value="korisnik_in/adresaKorisnika"/>
+<property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="10" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBox" id="1801212496">
@@ -158,17 +158,17 @@
 <property name="outputBinding" value="dokumentacija_out/izvadIzKatastra"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="7" name="korisnikId_prezimeKorisnika" type="InputText" id="1377238529">
+<field position="13" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="1209032721">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot; Prezime korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj telefona korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="korisnik_in/prezimeKorisnika"/>
-<property name="outputBinding" value="korisnik_out/prezimeKorisnika"/>
+<property name="inputBinding" value="korisnik_in/brojTelefonaKorisnika"/>
+<property name="outputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="14" name="dokumentacijaId_gruntovniIzvadak" type="CheckBox" id="315520909">
