@@ -21,7 +21,7 @@
 <property name="outputBinding" value="nalogIzvedba_out/nalogIzvedbaId"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="2" name="nalogIzvedbaId_nazivNaloga" type="InputText" id="1718174846">
+<field position="3" name="nalogIzvedbaId_nazivNaloga" type="InputText" id="1718174846">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nalog nazivquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -34,6 +34,17 @@
 <property name="outputBinding" value="nalogIzvedba_out/nazivNaloga"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="2" name="ugovorId_ugovorId" type="InputTextInteger" id="1937714197">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="inputBinding" value="ugovor_in/ugovorId"/>
+<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
 <field position="4" name="nalogIzvedbaId_datumNaloga" type="InputDate" id="863697102">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -45,106 +56,98 @@
 <property name="outputBinding" value="nalogIzvedba_out/datumNaloga"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="5" name="prikljucakId_adresaPrikljucka" type="InputText" id="586127086">
+<field position="6" name="prikljucakId_adresaPrikljucka" type="InputText" id="586127086">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="prikljucak_in/adresaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="909910575">
+<field position="8" name="prikljucakId_katastarskaCesticaBroj" type="InputText" id="909910575">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katastarska cestica brojquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj katastarske cesticequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="prikljucak_in/katastarskaCesticaBroj"/>
 <property name="outputBinding" value="prikljucak_out/katastarskaCesticaBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="izmjeraPrikljuckaId_dubinaPrikljucka" type="InputText" id="143000145">
+<field position="5" name="prikljucakId_vrstaPrikljucka" type="InputText" id="735564717">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Dubina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vrsta prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/dubinaPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/dubinaPrikljucka"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="prikljucakId_katstarskaOpcina" type="InputText" id="1104926204">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katstarska opcinaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="prikljucak_in/katstarskaOpcina"/>
-<property name="outputBinding" value="prikljucak_out/katstarskaOpcina"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="izmjeraPrikljuckaId_duzinaPrikljucka" type="InputText" id="1304733647">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Duzina prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/duzinaPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/duzinaPrikljucka"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="10" name="prikljucakId_vrstaPrikljucka" type="InputText" id="735564717">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Vrsta prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="prikljucak_in/vrstaPrikljucka"/>
 <property name="outputBinding" value="prikljucak_out/vrstaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="izmjeraPrikljuckaId_profilPrikljucka" type="InputText" id="2072640153">
+<field position="11" name="prikljucakId_dubinaPrikljucka" type="InputText" id="505513020">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Profil prikljuckaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;dubina prikljucka quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
+<property name="readonly" value="true"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="izmjeraPrikljucka_in/profilPrikljucka"/>
-<property name="outputBinding" value="izmjeraPrikljucka_out/profilPrikljucka"/>
+<property name="inputBinding" value="prikljucak_in/dubinaPrikljucka"/>
+<property name="outputBinding" value="prikljucak_out/dubinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="ugovorId_ugovorId" type="InputTextInteger" id="1937714197">
+<field position="7" name="prikljucakId_duzinaPrikljucka" type="InputText" id="1907431619">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;ugovorId (ugovorId)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="ugovor_in/ugovorId"/>
-<property name="outputBinding" value="ugovor_out/ugovorId"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;duzina prikljucka quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="prikljucak_in/duzinaPrikljucka"/>
+<property name="outputBinding" value="prikljucak_out/duzinaPrikljucka"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="izmjeraPrikljucka_in" name="#B29FE4" type="dataModelerEntry" outId="izmjeraPrikljucka_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.IzmjeraPrikljucka" id="izmjeraPrikljuckaId"/>
-<dataHolder inputId="nalogIzvedba_in" name="#BBBBBB" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
+<field position="9" name="prikljucakId_profilPrikljucka" type="InputText" id="1858163850">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;profil prikljucka quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="prikljucak_in/profilPrikljucka"/>
+<property name="outputBinding" value="prikljucak_out/profilPrikljucka"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="prikljucakId_katastarskaOpcina" type="InputText" id="1461488552">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Katastarska opcinaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="prikljucak_in/katastarskaOpcina"/>
+<property name="outputBinding" value="prikljucak_out/katastarskaOpcina"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="nalogIzvedba_in" name="#FF54A7" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="ugovor_in" name="#E9E371" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 </form>
