@@ -112,7 +112,7 @@
 <property name="outputBinding" value="korisnik_out/obiKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="9" name="korisnikId_adresaKorisnika" type="InputText" id="1903908752">
+<field position="10" name="korisnikId_adresaKorisnika" type="InputText" id="1903908752">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Adresa korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -125,7 +125,7 @@
 <property name="outputBinding" value="korisnik_out/adresaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="1022449955">
+<field position="12" name="korisnikId_brojTelefonaKorisnika" type="InputText" id="1022449955">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj telefona korisnikaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -138,25 +138,34 @@
 <property name="outputBinding" value="korisnik_out/brojTelefonaKorisnika"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="11" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBoxPrimitiveBoolean" id="539580335">
+<field position="9" name="dokumentacijaId_gradjevinskaDozvola" type="CheckBoxPrimitiveBoolean" id="539580335">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gradjevinskaDozvola (dokumentacijaId)quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gradjevinska dozvolaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/gradjevinskaDozvola"/>
 <property name="outputBinding" value="dokumentacija_out/gradjevinskaDozvola"/>
 <property name="fieldClass" value="boolean"/>
 </field>
-<field position="12" name="dokumentacijaId_gruntovniIzvadak" type="CheckBoxPrimitiveBoolean" id="497840437">
+<field position="13" name="dokumentacijaId_gruntovniIzvadak" type="CheckBoxPrimitiveBoolean" id="497840437">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;gruntovniIzvadak (dokumentacijaId)quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;gruntovni izvadak quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/gruntovniIzvadak"/>
 <property name="outputBinding" value="dokumentacija_out/gruntovniIzvadak"/>
 <property name="fieldClass" value="boolean"/>
 </field>
-<field position="13" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="1612238523">
+<field position="11" name="dokumentacijaId_polozajniNacrt" type="CheckBoxPrimitiveBoolean" id="1612238523">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;polozajniNacrt (dokumentacijaId)quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;polozajni nacrt iz katastraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="dokumentacija_in/polozajniNacrt"/>
 <property name="outputBinding" value="dokumentacija_out/polozajniNacrt"/>
