@@ -10,21 +10,23 @@
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;dequot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;enquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;esquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;frquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;jaquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;ptquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;quot;zhquot;,quot;&lt;h3&gt;IZRADA NALOGA ZA IZVEDBU&lt;/h3&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="1" name="nalogIzvedbaId_nalogIzvedbaId" type="InputTextInteger" id="582870269">
+<field position="2" name="ugovorId_ugovorId" type="InputText" id="1461418243">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj nalogaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="nalogIzvedba_in/nalogIzvedbaId"/>
-<property name="outputBinding" value="nalogIzvedba_out/nalogIzvedbaId"/>
-<property name="fieldClass" value="java.lang.Integer"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="ugovor_in/ugovorId"/>
+<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="3" name="nalogIzvedbaId_nazivNaloga" type="InputText" id="1718174846">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nalog nazivquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Nalog nazivquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -136,20 +138,20 @@
 <property name="outputBinding" value="prikljucak_out/dubinaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="ugovorId_ugovorId" type="InputText" id="1461418243">
+<field position="1" name="nalogIzvedbaId_nalogId" type="InputText" id="1271997735">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj ugovoraquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Broj nalogaquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
+<property name="readonly" value="false"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="inputBinding" value="ugovor_in/ugovorId"/>
-<property name="outputBinding" value="ugovor_out/ugovorId"/>
+<property name="inputBinding" value="nalogIzvedba_in/nalogId"/>
+<property name="outputBinding" value="nalogIzvedba_out/nalogId"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="nalogIzvedba_in" name="#FF54A7" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
+<dataHolder inputId="nalogIzvedba_in" name="#B29FE4" type="dataModelerEntry" outId="nalogIzvedba_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.NalogIzvedba" id="nalogIzvedbaId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="ugovor_in" name="#FBB767" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 </form>
