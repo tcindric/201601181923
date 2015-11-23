@@ -9,49 +9,50 @@ public class Dokumentacija implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Polozajni_nacrt")
-   private boolean polozajniNacrt;
-   @org.kie.api.definition.type.Label(value = "Gradjevinska_dozvola")
-   private boolean gradjevinskaDozvola;
-   @org.kie.api.definition.type.Label(value = "Gruntovni_izvadak")
-   private boolean gruntovniIzvadak;
+   @org.kie.api.definition.type.Label("Polozajni_nacrt")
+   private Boolean polozajniNacrt;
+   @org.kie.api.definition.type.Label("Gradjevinska_dozvola")
+   private Boolean gradjevinskaDozvola;
+   @org.kie.api.definition.type.Label("Gruntovni_izvadak")
+   private Boolean gruntovniIzvadak;
 
    public Dokumentacija()
    {
    }
 
-   public boolean isPolozajniNacrt()
+   public java.lang.Boolean getPolozajniNacrt()
    {
       return this.polozajniNacrt;
    }
 
-   public void setPolozajniNacrt(boolean polozajniNacrt)
+   public void setPolozajniNacrt(java.lang.Boolean polozajniNacrt)
    {
       this.polozajniNacrt = polozajniNacrt;
    }
 
-   public boolean isGradjevinskaDozvola()
+   public java.lang.Boolean getGradjevinskaDozvola()
    {
       return this.gradjevinskaDozvola;
    }
 
-   public void setGradjevinskaDozvola(boolean gradjevinskaDozvola)
+   public void setGradjevinskaDozvola(java.lang.Boolean gradjevinskaDozvola)
    {
       this.gradjevinskaDozvola = gradjevinskaDozvola;
    }
 
-   public boolean isGruntovniIzvadak()
+   public java.lang.Boolean getGruntovniIzvadak()
    {
       return this.gruntovniIzvadak;
    }
 
-   public void setGruntovniIzvadak(boolean gruntovniIzvadak)
+   public void setGruntovniIzvadak(java.lang.Boolean gruntovniIzvadak)
    {
       this.gruntovniIzvadak = gruntovniIzvadak;
    }
 
-   public Dokumentacija(boolean polozajniNacrt, boolean gradjevinskaDozvola,
-         boolean gruntovniIzvadak)
+   public Dokumentacija(java.lang.Boolean polozajniNacrt,
+         java.lang.Boolean gradjevinskaDozvola,
+         java.lang.Boolean gruntovniIzvadak)
    {
       this.polozajniNacrt = polozajniNacrt;
       this.gradjevinskaDozvola = gradjevinskaDozvola;
