@@ -18,5 +18,6 @@
 <property name="outputBinding" value="prikljucak_out/adresaPrikljucka"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<dataHolder inputId="mjernoMjesto_in" name="#0000A0" type="dataModelerEntry" outId="mjernoMjesto_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.MjernoMjesto" id="mjernoMjestoId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 </form>
