@@ -114,7 +114,7 @@
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="korisnik_in" name="#E9E371" type="dataModelerEntry" outId="korisnik_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Korisnik" id="korisnikId"/>
-<dataHolder inputId="mjernoMjesto_in" name="#A7E690" type="dataModelerEntry" outId="mjernoMjesto_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.MjernoMjesto" id="mjernoMjestoId"/>
+<dataHolder inputId="mjernoMjesto_in" name="#0000A0" type="dataModelerEntry" outId="mjernoMjesto_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.MjernoMjesto" id="mjernoMjestoId"/>
 <dataHolder inputId="prikljucak_in" name="#9BCAFA" type="dataModelerEntry" outId="prikljucak_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Prikljucak" id="prikljucakId"/>
 <dataHolder inputId="ugovor_in" name="#FBB767" type="dataModelerEntry" outId="ugovor_out" value="bpm_vvg_2015.procesiugovaranjaprikljucaka.Ugovor" id="ugovorId"/>
 </form>
