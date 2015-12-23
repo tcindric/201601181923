@@ -9,10 +9,12 @@ public class Zahtjev implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Zahtjev_id")
+   @org.kie.api.definition.type.Label("Zahtjev_id")
    private java.lang.String zahtjevId;
-   @org.kie.api.definition.type.Label(value = "Datum_zahtjeva")
+   @org.kie.api.definition.type.Label("Datum_zahtjeva")
    private java.util.Date datumZahtjeva;
+
+   private java.util.Date datumPonistenja;
 
    public Zahtjev()
    {
@@ -38,10 +40,22 @@ public class Zahtjev implements java.io.Serializable
       this.datumZahtjeva = datumZahtjeva;
    }
 
-   public Zahtjev(java.lang.String zahtjevId, java.util.Date datumZahtjeva)
+   public java.util.Date getDatumPonistenja()
+   {
+      return this.datumPonistenja;
+   }
+
+   public void setDatumPonistenja(java.util.Date datumPonistenja)
+   {
+      this.datumPonistenja = datumPonistenja;
+   }
+
+   public Zahtjev(java.lang.String zahtjevId, java.util.Date datumZahtjeva,
+         java.util.Date datumPonistenja)
    {
       this.zahtjevId = zahtjevId;
       this.datumZahtjeva = datumZahtjeva;
+      this.datumPonistenja = datumPonistenja;
    }
 
 }
